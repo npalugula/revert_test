@@ -2,6 +2,7 @@ connection: "energy_price_mx"
 
 # include all the views
 # first
+#second
 include: "/views/**/*.view.lkml"
 
 datagroup: revert_test_default_datagroup {
