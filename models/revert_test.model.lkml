@@ -1,6 +1,7 @@
 connection: "energy_price_mx"
 
 # include all the views
+# first
 include: "/views/**/*.view.lkml"
 
 datagroup: revert_test_default_datagroup {
@@ -11,4 +12,3 @@ datagroup: revert_test_default_datagroup {
 persist_with: revert_test_default_datagroup
 
 explore: pml {}
-
